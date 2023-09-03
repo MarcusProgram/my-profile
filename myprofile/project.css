@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Jua-Regular";
+    src: url("fonts/Jua-Regular.ttf");
+  }
+p,h1,h2,h3,h4,h5,span,a{
+    font-family: Jua-Regular, Jua-Regular, sans-serif;
+}
+body{
+    background-color: #262424;
+}
+
+.marcdev {
+    width: 130px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(40px, 20px);
+
+}
+
+.oglav {
+    margin: 0;
+    font-size: 60;
+    color: #D7DB1F;
+}
+
+.iconIn{
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    top: 10px; 
+    right: 30px; 
+    z-index: 9999;
+    border-radius: 50%;
+}
+.githubb {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.corp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%; 
+    height: 30px;
+    position: fixed;
+    bottom: 0; 
+    background-color: #2F2C2C;
+    
+    color: white;
+}
+.corpText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naviganions{
+    width: 380px;
+    height: 60px;
+    background-color: #3A3838;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    text-align: center;
+    display: flex;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+#homeID {
+    color: #A9A8A8;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: color 0.5s ease;
+    cursor: url("png/cursor.png"), auto;
+}
+#aboutID {
+    color: #A9A8A8;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: color 0.5s ease;
+    cursor: url("png/cursor.png"), auto;
+}
+#projectsID {
+    color: white;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: color 0.5s ease;
+    cursor: url("png/cursor.png"), auto;
+}
+#contactID {
+    color: #A9A8A8;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: color 0.5s ease;
+    cursor: url("png/cursor.png"), auto;
+}
+
+#homeID:hover{
+    color: #d6d6d6;
+}
+#aboutID:hover{
+    color: #d6d6d6;
+}
+#contactID:hover{
+    color: #d6d6d6;
+}
+
